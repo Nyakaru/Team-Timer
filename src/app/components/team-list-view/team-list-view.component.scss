@@ -1,0 +1,24 @@
+.team-view{
+    display: inline-flex;
+    width: 100%;
+}
+.right-pane {
+    width: 50%;
+    padding: 20px;
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      .form-container > * {
+        width: 40%;
+      }
+}
+.left-pane {
+    width: 50%;
+    padding: 20px 20px 20px 10%;
+}
+.mat-button {
+    background-color: #3359DB;
+    color: #ffffff;
+}
